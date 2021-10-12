@@ -1,12 +1,12 @@
 {
     "packages": [],
     "includes": {
-        "include/all$3a250283f14138bef319ebe6fdb810d5306d83ac.json": {
-            "sha1": "3a250283f14138bef319ebe6fdb810d5306d83ac"
+        "include/all$1af146dbd15bbf5f3e1d590ebb438e5173c5d483.json": {
+            "sha1": "1af146dbd15bbf5f3e1d590ebb438e5173c5d483"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
-        "pamitvn/fbvip"
+        "pamitvn/test-satis-private"
     ]
 }

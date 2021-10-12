@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "pamitvn/test-satis-private": {
+            "dev-master": {
+                "name": "pamitvn/test-satis-private",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:pamitvn/test-satis-private.git",
+                    "reference": "c1eea32f510d0447d9d04fa5be3af2f72d9adae0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pamitvn/test-satis-private/zipball/c1eea32f510d0447d9d04fa5be3af2f72d9adae0",
+                    "reference": "c1eea32f510d0447d9d04fa5be3af2f72d9adae0",
+                    "shasum": ""
+                },
+                "time": "2021-10-12T10:48:56+00:00",
+                "default-branch": true,
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "PAM Developer",
+                        "email": "anphamdeveloper@gmail.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/pamitvn/test-satis-private/tree/master",
+                    "issues": "https://github.com/pamitvn/test-satis-private/issues"
+                }
+            }
+        }
+    }
+}
