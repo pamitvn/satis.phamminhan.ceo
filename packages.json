@@ -1,12 +1,10 @@
 {
     "packages": [],
     "includes": {
-        "include/all$86fe7d9b04281c3dc72b48e3feb046256f48e98a.json": {
-            "sha1": "86fe7d9b04281c3dc72b48e3feb046256f48e98a"
+        "include/all$96e5c0926e9d7f87094d1ba307e38ea76cd09c53.json": {
+            "sha1": "96e5c0926e9d7f87094d1ba307e38ea76cd09c53"
         }
     },
     "metadata-url": "/p2/%package%.json",
-    "available-packages": [
-        "laravel/laravel"
-    ]
+    "available-packages": []
 }
