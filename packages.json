@@ -1,10 +1,12 @@
 {
     "packages": [],
     "includes": {
-        "include/all$96e5c0926e9d7f87094d1ba307e38ea76cd09c53.json": {
-            "sha1": "96e5c0926e9d7f87094d1ba307e38ea76cd09c53"
+        "include/all$3a250283f14138bef319ebe6fdb810d5306d83ac.json": {
+            "sha1": "3a250283f14138bef319ebe6fdb810d5306d83ac"
         }
     },
     "metadata-url": "/p2/%package%.json",
-    "available-packages": []
+    "available-packages": [
+        "pamitvn/fbvip"
+    ]
 }
