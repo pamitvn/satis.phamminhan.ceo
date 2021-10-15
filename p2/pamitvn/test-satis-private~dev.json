@@ -13,8 +13,7 @@
                 "dist": {
                     "type": "zip",
                     "url": "https://satis-dist.phamminhan.ceo/archive/pamitvn/test-satis-private/pamitvn-test-satis-private-c1eea32f510d0447d9d04fa5be3af2f72d9adae0-zip-b5cb50.zip",
-                    "reference": "c1eea32f510d0447d9d04fa5be3af2f72d9adae0",
-                    "shasum": "bb54a4a17f9d68e7d5bbc7e58afbd427b34361da"
+                    "reference": "c1eea32f510d0447d9d04fa5be3af2f72d9adae0"
                 },
                 "time": "2021-10-12T10:48:56+00:00",
                 "default-branch": true,
