@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "pamitvn/fwp-core-support": [
+            {
+                "name": "pamitvn/fwp-core-support",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:pamitvn/fwp-core-support.git",
+                    "reference": "eaa3feff3f4137fa8d880a0039005580ad58050e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pamitvn/fwp-core-support/zipball/eaa3feff3f4137fa8d880a0039005580ad58050e",
+                    "reference": "eaa3feff3f4137fa8d880a0039005580ad58050e",
+                    "shasum": ""
+                },
+                "time": "2021-10-17T14:24:43+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "helpers/common.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "PAM",
+                        "email": "anphamdeveloper@gmail.com",
+                        "homepage": "https://phamminhan.ceo"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/pamitvn/fwp-core-support/tree/v1.0.0",
+                    "issues": "https://github.com/pamitvn/fwp-core-support/issues"
+                }
+            }
+        ]
+    }
+}
