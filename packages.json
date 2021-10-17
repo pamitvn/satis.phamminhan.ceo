@@ -1,12 +1,10 @@
 {
     "packages": [],
     "includes": {
-        "include/all$5f50458365efa752054100e62e9ae8af7d09f664.json": {
-            "sha1": "5f50458365efa752054100e62e9ae8af7d09f664"
+        "include/all$96e5c0926e9d7f87094d1ba307e38ea76cd09c53.json": {
+            "sha1": "96e5c0926e9d7f87094d1ba307e38ea76cd09c53"
         }
     },
     "metadata-url": "/p2/%package%.json",
-    "available-packages": [
-        "pamitvn/test-satis-private"
-    ]
+    "available-packages": []
 }
