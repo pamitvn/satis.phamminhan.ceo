@@ -12,13 +12,12 @@
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://satis-dist.phamminhan.ceo/archive/pamitvn/fwp-core-support/pamitvn-fwp-core-support-eaa3feff3f4137fa8d880a0039005580ad58050e-zip-66b048.zip",
+                    "url": "https://api.github.com/repos/pamitvn/fwp-core-support/zipball/eaa3feff3f4137fa8d880a0039005580ad58050e",
                     "reference": "eaa3feff3f4137fa8d880a0039005580ad58050e",
-                    "shasum": "032adaf62bcb53ff470caa4debc79ac3b8acf3c3"
+                    "shasum": ""
                 },
                 "time": "2021-10-17T14:24:43+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "files": [
                         "helpers/common.php"
