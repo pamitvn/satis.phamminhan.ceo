@@ -1,5 +1,108 @@
 {
     "packages": {
+        "pamitvn/fwp-core-setting": {
+            "v1.0.0": {
+                "name": "pamitvn/fwp-core-setting",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:pam-framework/core-setting.git",
+                    "reference": "f6b80fc024aed505e97bacc736f62da3ac0f3523"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fcore-setting/repository/archive.zip?sha=f6b80fc024aed505e97bacc736f62da3ac0f3523",
+                    "reference": "f6b80fc024aed505e97bacc736f62da3ac0f3523",
+                    "shasum": ""
+                },
+                "require": {
+                    "pamitvn/fwp-core-toolkit": "v1.0.0",
+                    "php": "^7.4",
+                    "spatie/laravel-settings": "^2.1.11",
+                    "symfony/yaml": "^5.3"
+                },
+                "time": "2021-10-18T19:34:44+07:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "PAM\\Setting\\Providers\\PackageServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "PAM\\Setting\\": "src"
+                    },
+                    "files": [
+                        "helpers/common.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "PAM",
+                        "email": "anphamdeveloper@gmail.com",
+                        "homepage": "https://phamminhan.ceo"
+                    }
+                ],
+                "description": "Store strongly typed application settings",
+                "support": {
+                    "issues": "https://gitlab.com/api/v4/projects/30547467/issues"
+                }
+            },
+            "dev-master": {
+                "name": "pamitvn/fwp-core-setting",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:pam-framework/core-setting.git",
+                    "reference": "f6b80fc024aed505e97bacc736f62da3ac0f3523"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fcore-setting/repository/archive.zip?sha=f6b80fc024aed505e97bacc736f62da3ac0f3523",
+                    "reference": "f6b80fc024aed505e97bacc736f62da3ac0f3523",
+                    "shasum": ""
+                },
+                "require": {
+                    "pamitvn/fwp-core-toolkit": "v1.0.0",
+                    "php": "^7.4",
+                    "spatie/laravel-settings": "^2.1.11",
+                    "symfony/yaml": "^5.3"
+                },
+                "time": "2021-10-18T19:34:44+07:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "PAM\\Setting\\Providers\\PackageServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "PAM\\Setting\\": "src"
+                    },
+                    "files": [
+                        "helpers/common.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "PAM",
+                        "email": "anphamdeveloper@gmail.com",
+                        "homepage": "https://phamminhan.ceo"
+                    }
+                ],
+                "description": "Store strongly typed application settings",
+                "support": {
+                    "issues": "https://gitlab.com/api/v4/projects/30547467/issues"
+                }
+            }
+        },
         "pamitvn/fwp-core-support": {
             "v1.0.0": {
                 "name": "pamitvn/fwp-core-support",
