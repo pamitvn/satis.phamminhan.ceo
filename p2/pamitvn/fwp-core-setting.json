@@ -50,6 +50,56 @@
                 "support": {
                     "issues": "https://gitlab.com/api/v4/projects/30547467/issues"
                 }
+            },
+            {
+                "name": "pamitvn/fwp-core-setting",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:pam-framework/core-setting.git",
+                    "reference": "9634f58757a30543aae60cdb3c7c86831e7ecb48"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fcore-setting/repository/archive.zip?sha=9634f58757a30543aae60cdb3c7c86831e7ecb48",
+                    "reference": "9634f58757a30543aae60cdb3c7c86831e7ecb48",
+                    "shasum": ""
+                },
+                "require": {
+                    "pamitvn/fwp-core-toolkit": "v1.0.0",
+                    "php": "^7.4",
+                    "spatie/laravel-settings": "^2.1.11",
+                    "symfony/yaml": "^5.3"
+                },
+                "time": "2021-10-18T19:56:53+07:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "PAM\\Setting\\Providers\\PackageServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "PAM\\Setting\\": "src"
+                    },
+                    "files": [
+                        "helpers/common.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "PAM",
+                        "email": "anphamdeveloper@gmail.com",
+                        "homepage": "https://phamminhan.ceo"
+                    }
+                ],
+                "description": "Store strongly typed application settings",
+                "support": {
+                    "issues": "https://gitlab.com/api/v4/projects/30547467/issues"
+                }
             }
         ]
     }
