@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "pamitvn/fwp-core-toolkit": [
+            {
+                "name": "pamitvn/fwp-core-toolkit",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:pam-framework/core-package-toolkit.git",
+                    "reference": "be939678c989ed1c8d7d6e0ca76d3673ca56cbee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fcore-package-toolkit/repository/archive.zip?sha=be939678c989ed1c8d7d6e0ca76d3673ca56cbee",
+                    "reference": "be939678c989ed1c8d7d6e0ca76d3673ca56cbee",
+                    "shasum": ""
+                },
+                "time": "2021-10-18T19:03:54+07:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "PAM\\Toolkit\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "PAM Developer",
+                        "email": "anphamdeveloper@gmail.com",
+                        "homepage": "https://phamminhan.ceo"
+                    }
+                ],
+                "description": "Tool pack to make it simpler to support the registration of laravel services",
+                "support": {
+                    "issues": "https://gitlab.com/api/v4/projects/30546559/issues"
+                }
+            }
+        ]
+    }
+}

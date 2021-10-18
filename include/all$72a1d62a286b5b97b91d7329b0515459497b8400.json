@@ -1,0 +1,146 @@
+{
+    "packages": {
+        "pamitvn/fwp-core-support": {
+            "v1.0.0": {
+                "name": "pamitvn/fwp-core-support",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:pamitvn/fwp-core-support.git",
+                    "reference": "eaa3feff3f4137fa8d880a0039005580ad58050e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pamitvn/fwp-core-support/zipball/eaa3feff3f4137fa8d880a0039005580ad58050e",
+                    "reference": "eaa3feff3f4137fa8d880a0039005580ad58050e",
+                    "shasum": ""
+                },
+                "time": "2021-10-17T14:24:43+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "helpers/common.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "PAM",
+                        "email": "anphamdeveloper@gmail.com",
+                        "homepage": "https://phamminhan.ceo"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/pamitvn/fwp-core-support/tree/v1.0.0",
+                    "issues": "https://github.com/pamitvn/fwp-core-support/issues"
+                }
+            },
+            "dev-master": {
+                "name": "pamitvn/fwp-core-support",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:pamitvn/fwp-core-support.git",
+                    "reference": "eaa3feff3f4137fa8d880a0039005580ad58050e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pamitvn/fwp-core-support/zipball/eaa3feff3f4137fa8d880a0039005580ad58050e",
+                    "reference": "eaa3feff3f4137fa8d880a0039005580ad58050e",
+                    "shasum": ""
+                },
+                "time": "2021-10-17T14:24:43+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "helpers/common.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "PAM",
+                        "email": "anphamdeveloper@gmail.com",
+                        "homepage": "https://phamminhan.ceo"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/pamitvn/fwp-core-support/tree/v1.0.0",
+                    "issues": "https://github.com/pamitvn/fwp-core-support/issues"
+                }
+            }
+        },
+        "pamitvn/fwp-core-toolkit": {
+            "v1.0.0": {
+                "name": "pamitvn/fwp-core-toolkit",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:pam-framework/core-package-toolkit.git",
+                    "reference": "be939678c989ed1c8d7d6e0ca76d3673ca56cbee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fcore-package-toolkit/repository/archive.zip?sha=be939678c989ed1c8d7d6e0ca76d3673ca56cbee",
+                    "reference": "be939678c989ed1c8d7d6e0ca76d3673ca56cbee",
+                    "shasum": ""
+                },
+                "time": "2021-10-18T19:03:54+07:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "PAM\\Toolkit\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "PAM Developer",
+                        "email": "anphamdeveloper@gmail.com",
+                        "homepage": "https://phamminhan.ceo"
+                    }
+                ],
+                "description": "Tool pack to make it simpler to support the registration of laravel services",
+                "support": {
+                    "issues": "https://gitlab.com/api/v4/projects/30546559/issues"
+                }
+            },
+            "dev-master": {
+                "name": "pamitvn/fwp-core-toolkit",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:pam-framework/core-package-toolkit.git",
+                    "reference": "be939678c989ed1c8d7d6e0ca76d3673ca56cbee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fcore-package-toolkit/repository/archive.zip?sha=be939678c989ed1c8d7d6e0ca76d3673ca56cbee",
+                    "reference": "be939678c989ed1c8d7d6e0ca76d3673ca56cbee",
+                    "shasum": ""
+                },
+                "time": "2021-10-18T19:03:54+07:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "PAM\\Toolkit\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "PAM Developer",
+                        "email": "anphamdeveloper@gmail.com",
+                        "homepage": "https://phamminhan.ceo"
+                    }
+                ],
+                "description": "Tool pack to make it simpler to support the registration of laravel services",
+                "support": {
+                    "issues": "https://gitlab.com/api/v4/projects/30546559/issues"
+                }
+            }
+        }
+    }
+}
