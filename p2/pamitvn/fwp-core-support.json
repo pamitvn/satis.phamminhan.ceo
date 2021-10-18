@@ -3,41 +3,8 @@
         "pamitvn/fwp-core-support": [
             {
                 "name": "pamitvn/fwp-core-support",
-                "version": "v1.0.0",
+                "version": "1.0.0",
                 "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@gitlab.com:pam-framework/core-support.git",
-                    "reference": "eaa3feff3f4137fa8d880a0039005580ad58050e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fcore-support/repository/archive.zip?sha=eaa3feff3f4137fa8d880a0039005580ad58050e",
-                    "reference": "eaa3feff3f4137fa8d880a0039005580ad58050e",
-                    "shasum": ""
-                },
-                "time": "2021-10-17T21:24:43+07:00",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "helpers/common.php"
-                    ]
-                },
-                "authors": [
-                    {
-                        "name": "PAM",
-                        "email": "anphamdeveloper@gmail.com",
-                        "homepage": "https://phamminhan.ceo"
-                    }
-                ],
-                "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30523543/issues"
-                }
-            },
-            {
-                "name": "pamitvn/fwp-core-support",
-                "version": "v1.0.1",
-                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:pam-framework/core-support.git",

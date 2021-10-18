@@ -3,7 +3,7 @@
         "pamitvn/fwp-core-toolkit": [
             {
                 "name": "pamitvn/fwp-core-toolkit",
-                "version": "v1.0.0",
+                "version": "1.0.0",
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
