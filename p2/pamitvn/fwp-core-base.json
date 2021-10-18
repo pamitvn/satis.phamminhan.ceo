@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "pamitvn/fwp-core-base": [
+            {
+                "name": "pamitvn/fwp-core-base",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:pam-framework/core-base.git",
+                    "reference": "4a93b433778f395e26fdfb5e7e4771307ec77d43"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fcore-base/repository/archive.zip?sha=4a93b433778f395e26fdfb5e7e4771307ec77d43",
+                    "reference": "4a93b433778f395e26fdfb5e7e4771307ec77d43",
+                    "shasum": ""
+                },
+                "require": {
+                    "pamitvn/fwp-core-setting": "v1.0.1",
+                    "pamitvn/fwp-core-toolkit": "v1.0.0",
+                    "php": "^7.4"
+                },
+                "time": "2021-10-18T20:29:03+07:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "PAM\\Base\\Providers\\PackageServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "PAM\\Base\\": "src"
+                    },
+                    "files": [
+                        "helpers/common.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "PAM",
+                        "email": "anphamdeveloper@gmail.com",
+                        "homepage": "https://phamminhan.ceo"
+                    }
+                ],
+                "support": {
+                    "issues": "https://gitlab.com/api/v4/projects/30549897/issues"
+                }
+            }
+        ]
+    }
+}
