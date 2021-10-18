@@ -8,20 +8,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:pam-framework/core-support.git",
-                    "reference": "eaa3feff3f4137fa8d880a0039005580ad58050e"
+                    "reference": "8ecb6c5f2ccbaf10469e270bce848125bff8e937"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fcore-support/repository/archive.zip?sha=eaa3feff3f4137fa8d880a0039005580ad58050e",
-                    "reference": "eaa3feff3f4137fa8d880a0039005580ad58050e",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fcore-support/repository/archive.zip?sha=8ecb6c5f2ccbaf10469e270bce848125bff8e937",
+                    "reference": "8ecb6c5f2ccbaf10469e270bce848125bff8e937",
                     "shasum": ""
                 },
-                "time": "2021-10-17T21:24:43+07:00",
+                "time": "2021-10-18T20:22:52+07:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "files": [
-                        "helpers/common.php"
+                        "helpers/common.php",
+                        "helpers/assets.php",
+                        "helpers/paths.php"
                     ]
                 },
                 "authors": [
