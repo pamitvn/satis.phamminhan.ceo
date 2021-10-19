@@ -1,13 +1,14 @@
 {
     "packages": [],
     "includes": {
-        "include/all$cc20b847346c170fc3e06afb82f02857473f46f5.json": {
-            "sha1": "cc20b847346c170fc3e06afb82f02857473f46f5"
+        "include/all$cb2d36b8081e239591cc6c4fe2dac0a7b8e14bc1.json": {
+            "sha1": "cb2d36b8081e239591cc6c4fe2dac0a7b8e14bc1"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
         "pamitvn/fwp-core-base",
+        "pamitvn/fwp-core-hook",
         "pamitvn/fwp-core-setting",
         "pamitvn/fwp-core-support",
         "pamitvn/fwp-core-toolkit"

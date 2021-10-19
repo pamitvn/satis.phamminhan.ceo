@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "pamitvn/fwp-core-hook": [
+            {
+                "name": "pamitvn/fwp-core-hook",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:pam-framework/core-hook.git",
+                    "reference": "f8b7fb204ff2f208c04eab3b8ec949a78aa93a4e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fcore-hook/repository/archive.zip?sha=f8b7fb204ff2f208c04eab3b8ec949a78aa93a4e",
+                    "reference": "f8b7fb204ff2f208c04eab3b8ec949a78aa93a4e",
+                    "shasum": ""
+                },
+                "require": {
+                    "hongyukeji/laravel-hook": "^v1.1.0"
+                },
+                "time": "2021-10-19T17:39:31+07:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "helpers/common.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "PAM",
+                        "email": "anphamdeveloper@gmail.com",
+                        "homepage": "https://phamminhan.ceo"
+                    }
+                ],
+                "description": "The WordPress filter/action system in Laravel",
+                "support": {
+                    "issues": "https://gitlab.com/api/v4/projects/30576986/issues"
+                }
+            }
+        ]
+    }
+}
