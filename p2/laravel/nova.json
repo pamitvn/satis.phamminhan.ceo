@@ -1,8 +1,8 @@
 {
     "packages": {
-        "pamitvn/fwp-nova": [
+        "laravel/nova": [
             {
-                "name": "pamitvn/fwp-nova",
+                "name": "laravel/nova",
                 "version": "3.29.0",
                 "version_normalized": "3.29.0.0",
                 "source": {

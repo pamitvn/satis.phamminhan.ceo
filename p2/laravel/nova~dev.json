@@ -1,19 +1,19 @@
 {
     "packages": {
-        "pamitvn/fwp-nova": [
+        "laravel/nova": [
             {
-                "name": "pamitvn/fwp-nova",
+                "name": "laravel/nova",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:pam-framework/nova.git",
-                    "reference": "452bf113ec41081357ea287a676c0c54ebbb5494"
+                    "reference": "f9fbc3b0a01e89641b41f0c8bac3930906eae6c9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fnova/repository/archive.zip?sha=452bf113ec41081357ea287a676c0c54ebbb5494",
-                    "reference": "452bf113ec41081357ea287a676c0c54ebbb5494",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fnova/repository/archive.zip?sha=f9fbc3b0a01e89641b41f0c8bac3930906eae6c9",
+                    "reference": "f9fbc3b0a01e89641b41f0c8bac3930906eae6c9",
                     "shasum": ""
                 },
                 "require": {
@@ -38,7 +38,7 @@
                     "phpunit/phpunit": "^8.4",
                     "predis/predis": "^1.1"
                 },
-                "time": "2021-10-19T13:01:28+00:00",
+                "time": "2021-10-20T11:25:03+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

@@ -1,17 +1,17 @@
 {
     "packages": [],
     "includes": {
-        "include/all$3e541eb0c4c3f360a5d2a9c73f35bb424166219f.json": {
-            "sha1": "3e541eb0c4c3f360a5d2a9c73f35bb424166219f"
+        "include/all$792482442c762b55a6479707b78c4fddd3a2df47.json": {
+            "sha1": "792482442c762b55a6479707b78c4fddd3a2df47"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
+        "laravel/nova",
         "pamitvn/fwp-core-base",
         "pamitvn/fwp-core-hook",
         "pamitvn/fwp-core-setting",
         "pamitvn/fwp-core-support",
-        "pamitvn/fwp-core-toolkit",
-        "pamitvn/fwp-nova"
+        "pamitvn/fwp-core-toolkit"
     ]
 }
