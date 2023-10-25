@@ -180,12 +180,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aysit/game-core.git",
-                    "reference": "c29b9dc3bf3229079d3ad38be83b5009795d45f9"
+                    "reference": "8a599447ad78b1aab870b4354afb007693b9abce"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aysit/game-core/zipball/c29b9dc3bf3229079d3ad38be83b5009795d45f9",
-                    "reference": "c29b9dc3bf3229079d3ad38be83b5009795d45f9",
+                    "url": "https://api.github.com/repos/aysit/game-core/zipball/8a599447ad78b1aab870b4354afb007693b9abce",
+                    "reference": "8a599447ad78b1aab870b4354afb007693b9abce",
                     "shasum": ""
                 },
                 "require": {
@@ -201,7 +201,7 @@
                     "twig/extra-bundle": "^2.12|^3.0",
                     "twig/twig": "^2.12|^3.0"
                 },
-                "time": "2023-10-25T11:56:48+00:00",
+                "time": "2023-10-25T12:25:51+00:00",
                 "default-branch": true,
                 "type": "symfony-bundle",
                 "autoload": {
@@ -256,7 +256,7 @@
                 ],
                 "description": "The game core project",
                 "support": {
-                    "source": "https://github.com/aysit/game-core/tree/1.0.1",
+                    "source": "https://github.com/aysit/game-core/tree/1.0.2",
                     "issues": "https://github.com/aysit/game-core/issues"
                 }
             }
