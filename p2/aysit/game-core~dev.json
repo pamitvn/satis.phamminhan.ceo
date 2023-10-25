@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aysit/game-core.git",
-                    "reference": "8a599447ad78b1aab870b4354afb007693b9abce"
+                    "reference": "5ff76584340d8fca55e50192629bb4d2e30ddb66"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aysit/game-core/zipball/8a599447ad78b1aab870b4354afb007693b9abce",
-                    "reference": "8a599447ad78b1aab870b4354afb007693b9abce",
+                    "url": "https://api.github.com/repos/aysit/game-core/zipball/5ff76584340d8fca55e50192629bb4d2e30ddb66",
+                    "reference": "5ff76584340d8fca55e50192629bb4d2e30ddb66",
                     "shasum": ""
                 },
                 "require": {
@@ -29,7 +29,7 @@
                     "twig/extra-bundle": "^2.12|^3.0",
                     "twig/twig": "^2.12|^3.0"
                 },
-                "time": "2023-10-25T12:25:51+00:00",
+                "time": "2023-10-25T12:31:29+00:00",
                 "default-branch": true,
                 "type": "symfony-bundle",
                 "autoload": {
