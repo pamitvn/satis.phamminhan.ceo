@@ -1,0 +1,93 @@
+{
+    "packages": {
+        "aysit/game-core": [
+            {
+                "name": "aysit/game-core",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:aysit/game-core.git",
+                    "reference": "c29b9dc3bf3229079d3ad38be83b5009795d45f9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aysit/game-core/zipball/c29b9dc3bf3229079d3ad38be83b5009795d45f9",
+                    "reference": "c29b9dc3bf3229079d3ad38be83b5009795d45f9",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "guzzlehttp/guzzle": "^7.5",
+                    "illuminate/support": "^10.3",
+                    "php": "^8.0|^8.1|^8.2",
+                    "symfony/expression-language": "6.2.*",
+                    "symfony/framework-bundle": "6.2.*",
+                    "symfony/twig-bundle": "6.2.*",
+                    "symfony/yaml": "6.2.*",
+                    "twig/extra-bundle": "^2.12|^3.0",
+                    "twig/twig": "^2.12|^3.0"
+                },
+                "time": "2023-10-25T11:56:48+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "Aysit\\GameCore\\": "src/"
+                    },
+                    "files": [
+                        "helpers/index.php"
+                    ]
+                },
+                "archive": {
+                    "exclude": [
+                        "!vendor/*",
+                        "*.babel.js",
+                        "*.env",
+                        "*.local",
+                        "*.test",
+                        "*.zip",
+                        "/.all-contributorsrc",
+                        "/.babelrc",
+                        "/.gitattributes",
+                        "/.github",
+                        "/.gitignore",
+                        "/.phpcs.xml",
+                        "/.phpunit.result.cache",
+                        "/.travis.yml",
+                        "/.wordpress-org",
+                        "/README.md",
+                        "/composer.json",
+                        "/composer.lock",
+                        "/composer.phar",
+                        "/development/",
+                        "/logs/",
+                        "/node_modules/",
+                        "/phpcs.xml",
+                        "/phpunit.xml"
+                    ]
+                },
+                "scripts": {
+                    "pack": [
+                        "@composer archive --format=zip"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Aysit",
+                        "email": "aysitvn@gmail.com"
+                    }
+                ],
+                "description": "The game core project",
+                "support": {
+                    "source": "https://github.com/aysit/game-core/tree/1.0.1",
+                    "issues": "https://github.com/aysit/game-core/issues"
+                }
+            }
+        ]
+    }
+}

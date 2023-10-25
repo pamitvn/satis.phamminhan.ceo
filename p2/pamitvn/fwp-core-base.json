@@ -46,7 +46,8 @@
                     }
                 ],
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30549897/issues"
+                    "source": "https://gitlab.com/pam-framework/core-base/-/tree/v1.0.0",
+                    "issues": "https://gitlab.com/pam-framework/core-base/-/issues"
                 }
             },
             {
@@ -94,7 +95,8 @@
                     }
                 ],
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30549897/issues"
+                    "source": "https://gitlab.com/pam-framework/core-base/-/tree/v1.0.1",
+                    "issues": "https://gitlab.com/pam-framework/core-base/-/issues"
                 }
             }
         ]

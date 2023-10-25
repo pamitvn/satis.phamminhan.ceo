@@ -1,12 +1,13 @@
 {
     "packages": [],
     "includes": {
-        "include/all$792482442c762b55a6479707b78c4fddd3a2df47.json": {
-            "sha1": "792482442c762b55a6479707b78c4fddd3a2df47"
+        "include/all$19cc388d2d22311fea316815ba4128636f598c95.json": {
+            "sha1": "19cc388d2d22311fea316815ba4128636f598c95"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
+        "aysit/game-core",
         "laravel/nova",
         "pamitvn/fwp-core-base",
         "pamitvn/fwp-core-hook",

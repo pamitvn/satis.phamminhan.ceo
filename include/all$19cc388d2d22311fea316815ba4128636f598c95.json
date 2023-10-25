@@ -1,5 +1,266 @@
 {
     "packages": {
+        "aysit/game-core": {
+            "1.0.0": {
+                "name": "aysit/game-core",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:aysit/game-core.git",
+                    "reference": "e51eafde1cda3de2296bd59a5c8c15333b9ea939"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aysit/game-core/zipball/e51eafde1cda3de2296bd59a5c8c15333b9ea939",
+                    "reference": "e51eafde1cda3de2296bd59a5c8c15333b9ea939",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "guzzlehttp/guzzle": "^7.5",
+                    "illuminate/support": "^10.3",
+                    "php": "^8.0|^8.1|^8.2",
+                    "symfony/expression-language": "6.2.*",
+                    "symfony/framework-bundle": "6.2.*",
+                    "symfony/twig-bundle": "6.2.*",
+                    "symfony/yaml": "6.2.*",
+                    "twig/extra-bundle": "^2.12|^3.0",
+                    "twig/twig": "^2.12|^3.0"
+                },
+                "time": "2023-10-23T00:12:28+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "Aysit\\GameCore\\": "src/"
+                    },
+                    "files": [
+                        "helpers/index.php"
+                    ]
+                },
+                "archive": {
+                    "exclude": [
+                        "!vendor/*",
+                        "*.babel.js",
+                        "*.env",
+                        "*.local",
+                        "*.test",
+                        "*.zip",
+                        "/.all-contributorsrc",
+                        "/.babelrc",
+                        "/.gitattributes",
+                        "/.github",
+                        "/.gitignore",
+                        "/.phpcs.xml",
+                        "/.phpunit.result.cache",
+                        "/.travis.yml",
+                        "/.wordpress-org",
+                        "/README.md",
+                        "/composer.json",
+                        "/composer.lock",
+                        "/composer.phar",
+                        "/development/",
+                        "/logs/",
+                        "/node_modules/",
+                        "/phpcs.xml",
+                        "/phpunit.xml"
+                    ]
+                },
+                "scripts": {
+                    "pack": [
+                        "@composer archive --format=zip --file=aysit-game-core-stable"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Aysit",
+                        "email": "aysitvn@gmail.com"
+                    }
+                ],
+                "description": "The game core project",
+                "support": {
+                    "source": "https://github.com/aysit/game-core/tree/1.0.0",
+                    "issues": "https://github.com/aysit/game-core/issues"
+                }
+            },
+            "1.0.1": {
+                "name": "aysit/game-core",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:aysit/game-core.git",
+                    "reference": "c29b9dc3bf3229079d3ad38be83b5009795d45f9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aysit/game-core/zipball/c29b9dc3bf3229079d3ad38be83b5009795d45f9",
+                    "reference": "c29b9dc3bf3229079d3ad38be83b5009795d45f9",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "guzzlehttp/guzzle": "^7.5",
+                    "illuminate/support": "^10.3",
+                    "php": "^8.0|^8.1|^8.2",
+                    "symfony/expression-language": "6.2.*",
+                    "symfony/framework-bundle": "6.2.*",
+                    "symfony/twig-bundle": "6.2.*",
+                    "symfony/yaml": "6.2.*",
+                    "twig/extra-bundle": "^2.12|^3.0",
+                    "twig/twig": "^2.12|^3.0"
+                },
+                "time": "2023-10-25T11:56:48+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "Aysit\\GameCore\\": "src/"
+                    },
+                    "files": [
+                        "helpers/index.php"
+                    ]
+                },
+                "archive": {
+                    "exclude": [
+                        "!vendor/*",
+                        "*.babel.js",
+                        "*.env",
+                        "*.local",
+                        "*.test",
+                        "*.zip",
+                        "/.all-contributorsrc",
+                        "/.babelrc",
+                        "/.gitattributes",
+                        "/.github",
+                        "/.gitignore",
+                        "/.phpcs.xml",
+                        "/.phpunit.result.cache",
+                        "/.travis.yml",
+                        "/.wordpress-org",
+                        "/README.md",
+                        "/composer.json",
+                        "/composer.lock",
+                        "/composer.phar",
+                        "/development/",
+                        "/logs/",
+                        "/node_modules/",
+                        "/phpcs.xml",
+                        "/phpunit.xml"
+                    ]
+                },
+                "scripts": {
+                    "pack": [
+                        "@composer archive --format=zip"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Aysit",
+                        "email": "aysitvn@gmail.com"
+                    }
+                ],
+                "description": "The game core project",
+                "support": {
+                    "source": "https://github.com/aysit/game-core/tree/1.0.1",
+                    "issues": "https://github.com/aysit/game-core/issues"
+                }
+            },
+            "dev-master": {
+                "name": "aysit/game-core",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:aysit/game-core.git",
+                    "reference": "c29b9dc3bf3229079d3ad38be83b5009795d45f9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aysit/game-core/zipball/c29b9dc3bf3229079d3ad38be83b5009795d45f9",
+                    "reference": "c29b9dc3bf3229079d3ad38be83b5009795d45f9",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "guzzlehttp/guzzle": "^7.5",
+                    "illuminate/support": "^10.3",
+                    "php": "^8.0|^8.1|^8.2",
+                    "symfony/expression-language": "6.2.*",
+                    "symfony/framework-bundle": "6.2.*",
+                    "symfony/twig-bundle": "6.2.*",
+                    "symfony/yaml": "6.2.*",
+                    "twig/extra-bundle": "^2.12|^3.0",
+                    "twig/twig": "^2.12|^3.0"
+                },
+                "time": "2023-10-25T11:56:48+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "Aysit\\GameCore\\": "src/"
+                    },
+                    "files": [
+                        "helpers/index.php"
+                    ]
+                },
+                "archive": {
+                    "exclude": [
+                        "!vendor/*",
+                        "*.babel.js",
+                        "*.env",
+                        "*.local",
+                        "*.test",
+                        "*.zip",
+                        "/.all-contributorsrc",
+                        "/.babelrc",
+                        "/.gitattributes",
+                        "/.github",
+                        "/.gitignore",
+                        "/.phpcs.xml",
+                        "/.phpunit.result.cache",
+                        "/.travis.yml",
+                        "/.wordpress-org",
+                        "/README.md",
+                        "/composer.json",
+                        "/composer.lock",
+                        "/composer.phar",
+                        "/development/",
+                        "/logs/",
+                        "/node_modules/",
+                        "/phpcs.xml",
+                        "/phpunit.xml"
+                    ]
+                },
+                "scripts": {
+                    "pack": [
+                        "@composer archive --format=zip"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Aysit",
+                        "email": "aysitvn@gmail.com"
+                    }
+                ],
+                "description": "The game core project",
+                "support": {
+                    "source": "https://github.com/aysit/game-core/tree/1.0.1",
+                    "issues": "https://github.com/aysit/game-core/issues"
+                }
+            }
+        },
         "laravel/nova": {
             "3.29.0": {
                 "name": "laravel/nova",
@@ -94,7 +355,234 @@
                     "laravel"
                 ],
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30580855/issues"
+                    "source": "https://gitlab.com/pam-framework/nova/-/tree/v3.29.0",
+                    "issues": "https://gitlab.com/pam-framework/nova/-/issues"
+                }
+            },
+            "4.19.3": {
+                "name": "laravel/nova",
+                "version": "4.19.3",
+                "version_normalized": "4.19.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:pam-framework/nova.git",
+                    "reference": "2d8f86465ab6cd80cb2e1100c14cda6ef586ed24"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fnova/repository/archive.zip?sha=2d8f86465ab6cd80cb2e1100c14cda6ef586ed24",
+                    "reference": "2d8f86465ab6cd80cb2e1100c14cda6ef586ed24",
+                    "shasum": ""
+                },
+                "require": {
+                    "brick/money": "^0.5.0|^0.6.0|^0.7.0",
+                    "doctrine/dbal": "^2.13.3|^3.1.2",
+                    "ext-json": "*",
+                    "illuminate/support": "^8.83.4|^9.3.1",
+                    "inertiajs/inertia-laravel": "^0.4.5|^0.5.2|^0.6.0",
+                    "laravel/ui": "^3.3|^4.0",
+                    "nesbot/carbon": "^2.53.1",
+                    "php": "^7.3|^8.0",
+                    "rap2hpoutre/fast-excel": "^3.2|^4.1",
+                    "spatie/once": "^1.1|^2.0|^3.0",
+                    "symfony/console": "^5.4|^6.0",
+                    "symfony/finder": "^5.4|^6.0",
+                    "symfony/polyfill-intl-icu": "^1.22.1",
+                    "symfony/process": "^5.4|^6.0"
+                },
+                "require-dev": {
+                    "laravel/nova-dusk-suite": "8.4.x-dev|9.4.x-dev",
+                    "laravel/pint": "^1.0",
+                    "laravel/scout": "^9.4",
+                    "mockery/mockery": "^1.4.4",
+                    "nunomaduro/larastan": "^1.0.1|^2.0",
+                    "orchestra/testbench-dusk": "^6.24|^7.0",
+                    "phpunit/phpunit": "^9.5.10",
+                    "predis/predis": "^1.1.9|^2.0"
+                },
+                "suggest": {
+                    "ext-intl": "Required to format Currency field"
+                },
+                "time": "2022-12-10T23:47:29+07:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "dusk:prepare": [
+                        "./vendor/bin/dusk-updater detect --auto-update",
+                        "@php -r \"file_exists('phpunit.dusk.xml') || copy('phpunit.dusk.xml.dist', 'phpunit.dusk.xml'); \"",
+                        "@php -r \"if (file_exists('.env.dusk')) { copy('.env.dusk', 'vendor/laravel/nova-dusk-suite/.env'); } else { copy('.env.dusk.example', 'vendor/laravel/nova-dusk-suite/.env'); }\"",
+                        "./vendor/bin/testbench-dusk package:discover"
+                    ],
+                    "dusk:dev-assets": [
+                        "npm ci",
+                        "TAILWIND_MODE=build npm run dev",
+                        "./vendor/bin/testbench-dusk nova:publish --force"
+                    ],
+                    "dusk:assets": [
+                        "npm ci",
+                        "TAILWIND_MODE=build npm run prod",
+                        "./vendor/bin/testbench-dusk nova:publish --force"
+                    ],
+                    "dusk:test": [
+                        "./vendor/bin/testbench-dusk package:dusk-purge",
+                        "./vendor/bin/phpunit -c phpunit.dusk.xml"
+                    ],
+                    "dusk:filter": [
+                        "./vendor/bin/testbench-dusk package:dusk-purge && ./vendor/bin/phpunit -c phpunit.dusk.xml --filter"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://gitlab.com/pam-framework/nova/-/tree/v4.19.3",
+                    "issues": "https://gitlab.com/pam-framework/nova/-/issues"
+                }
+            },
+            "v4.x-dev": {
+                "name": "laravel/nova",
+                "version": "v4.x-dev",
+                "version_normalized": "4.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:pam-framework/nova.git",
+                    "reference": "2d8f86465ab6cd80cb2e1100c14cda6ef586ed24"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fnova/repository/archive.zip?sha=2d8f86465ab6cd80cb2e1100c14cda6ef586ed24",
+                    "reference": "2d8f86465ab6cd80cb2e1100c14cda6ef586ed24",
+                    "shasum": ""
+                },
+                "require": {
+                    "brick/money": "^0.5.0|^0.6.0|^0.7.0",
+                    "doctrine/dbal": "^2.13.3|^3.1.2",
+                    "ext-json": "*",
+                    "illuminate/support": "^8.83.4|^9.3.1",
+                    "inertiajs/inertia-laravel": "^0.4.5|^0.5.2|^0.6.0",
+                    "laravel/ui": "^3.3|^4.0",
+                    "nesbot/carbon": "^2.53.1",
+                    "php": "^7.3|^8.0",
+                    "rap2hpoutre/fast-excel": "^3.2|^4.1",
+                    "spatie/once": "^1.1|^2.0|^3.0",
+                    "symfony/console": "^5.4|^6.0",
+                    "symfony/finder": "^5.4|^6.0",
+                    "symfony/polyfill-intl-icu": "^1.22.1",
+                    "symfony/process": "^5.4|^6.0"
+                },
+                "require-dev": {
+                    "laravel/nova-dusk-suite": "8.4.x-dev|9.4.x-dev",
+                    "laravel/pint": "^1.0",
+                    "laravel/scout": "^9.4",
+                    "mockery/mockery": "^1.4.4",
+                    "nunomaduro/larastan": "^1.0.1|^2.0",
+                    "orchestra/testbench-dusk": "^6.24|^7.0",
+                    "phpunit/phpunit": "^9.5.10",
+                    "predis/predis": "^1.1.9|^2.0"
+                },
+                "suggest": {
+                    "ext-intl": "Required to format Currency field"
+                },
+                "time": "2022-12-10T23:47:29+07:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "dusk:prepare": [
+                        "./vendor/bin/dusk-updater detect --auto-update",
+                        "@php -r \"file_exists('phpunit.dusk.xml') || copy('phpunit.dusk.xml.dist', 'phpunit.dusk.xml'); \"",
+                        "@php -r \"if (file_exists('.env.dusk')) { copy('.env.dusk', 'vendor/laravel/nova-dusk-suite/.env'); } else { copy('.env.dusk.example', 'vendor/laravel/nova-dusk-suite/.env'); }\"",
+                        "./vendor/bin/testbench-dusk package:discover"
+                    ],
+                    "dusk:dev-assets": [
+                        "npm ci",
+                        "TAILWIND_MODE=build npm run dev",
+                        "./vendor/bin/testbench-dusk nova:publish --force"
+                    ],
+                    "dusk:assets": [
+                        "npm ci",
+                        "TAILWIND_MODE=build npm run prod",
+                        "./vendor/bin/testbench-dusk nova:publish --force"
+                    ],
+                    "dusk:test": [
+                        "./vendor/bin/testbench-dusk package:dusk-purge",
+                        "./vendor/bin/phpunit -c phpunit.dusk.xml"
+                    ],
+                    "dusk:filter": [
+                        "./vendor/bin/testbench-dusk package:dusk-purge && ./vendor/bin/phpunit -c phpunit.dusk.xml --filter"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://gitlab.com/pam-framework/nova/-/tree/v4.19.3",
+                    "issues": "https://gitlab.com/pam-framework/nova/-/issues"
                 }
             },
             "dev-master": {
@@ -134,7 +622,7 @@
                     "phpunit/phpunit": "^8.4",
                     "predis/predis": "^1.1"
                 },
-                "time": "2021-10-20T11:25:03+00:00",
+                "time": "2021-10-20T18:25:03+07:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -191,7 +679,8 @@
                     "laravel"
                 ],
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30580855/issues"
+                    "source": "https://gitlab.com/pam-framework/nova/-/tree/master",
+                    "issues": "https://gitlab.com/pam-framework/nova/-/issues"
                 }
             }
         },
@@ -241,7 +730,8 @@
                     }
                 ],
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30549897/issues"
+                    "source": "https://gitlab.com/pam-framework/core-base/-/tree/v1.0.0",
+                    "issues": "https://gitlab.com/pam-framework/core-base/-/issues"
                 }
             },
             "v1.0.1": {
@@ -289,7 +779,8 @@
                     }
                 ],
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30549897/issues"
+                    "source": "https://gitlab.com/pam-framework/core-base/-/tree/v1.0.1",
+                    "issues": "https://gitlab.com/pam-framework/core-base/-/issues"
                 }
             },
             "dev-master": {
@@ -338,7 +829,8 @@
                     }
                 ],
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30549897/issues"
+                    "source": "https://gitlab.com/pam-framework/core-base/-/tree/v1.0.1",
+                    "issues": "https://gitlab.com/pam-framework/core-base/-/issues"
                 }
             }
         },
@@ -377,7 +869,8 @@
                 ],
                 "description": "The WordPress filter/action system in Laravel",
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30576986/issues"
+                    "source": "https://gitlab.com/pam-framework/core-hook/-/tree/v1.0.0",
+                    "issues": "https://gitlab.com/pam-framework/core-hook/-/issues"
                 }
             },
             "dev-master": {
@@ -415,7 +908,8 @@
                 ],
                 "description": "The WordPress filter/action system in Laravel",
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30576986/issues"
+                    "source": "https://gitlab.com/pam-framework/core-hook/-/tree/v1.0.0",
+                    "issues": "https://gitlab.com/pam-framework/core-hook/-/issues"
                 }
             }
         },
@@ -467,7 +961,8 @@
                 ],
                 "description": "Store strongly typed application settings",
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30547467/issues"
+                    "source": "https://gitlab.com/pam-framework/core-setting/-/tree/v1.0.1",
+                    "issues": "https://gitlab.com/pam-framework/core-setting/-/issues"
                 }
             },
             "v1.0.1": {
@@ -517,7 +1012,8 @@
                 ],
                 "description": "Store strongly typed application settings",
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30547467/issues"
+                    "source": "https://gitlab.com/pam-framework/core-setting/-/tree/v1.0.1",
+                    "issues": "https://gitlab.com/pam-framework/core-setting/-/issues"
                 }
             },
             "dev-master": {
@@ -541,7 +1037,7 @@
                     "spatie/laravel-settings": "^2.1.11",
                     "symfony/yaml": "^5.3"
                 },
-                "time": "2021-10-19T10:01:12+00:00",
+                "time": "2021-10-19T17:01:12+07:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -568,7 +1064,8 @@
                 ],
                 "description": "Store strongly typed application settings",
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30547467/issues"
+                    "source": "https://gitlab.com/pam-framework/core-setting/-/tree/master",
+                    "issues": "https://gitlab.com/pam-framework/core-setting/-/issues"
                 }
             }
         },
@@ -605,7 +1102,8 @@
                     }
                 ],
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30523543/issues"
+                    "source": "https://gitlab.com/pam-framework/core-support/-/tree/1.0.0",
+                    "issues": "https://gitlab.com/pam-framework/core-support/-/issues"
                 }
             },
             "dev-master": {
@@ -615,15 +1113,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@gitlab.com:pam-framework/core-support.git",
-                    "reference": "8ecb6c5f2ccbaf10469e270bce848125bff8e937"
+                    "reference": "fa2a78a18b6b8076d78ec7fc49dc5c7ed1f985bf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fcore-support/repository/archive.zip?sha=8ecb6c5f2ccbaf10469e270bce848125bff8e937",
-                    "reference": "8ecb6c5f2ccbaf10469e270bce848125bff8e937",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fcore-support/repository/archive.zip?sha=fa2a78a18b6b8076d78ec7fc49dc5c7ed1f985bf",
+                    "reference": "fa2a78a18b6b8076d78ec7fc49dc5c7ed1f985bf",
                     "shasum": ""
                 },
-                "time": "2021-10-18T20:22:52+07:00",
+                "time": "2021-10-31T10:47:45+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -641,7 +1139,8 @@
                     }
                 ],
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30523543/issues"
+                    "source": "https://gitlab.com/pam-framework/core-support/-/tree/master",
+                    "issues": "https://gitlab.com/pam-framework/core-support/-/issues"
                 }
             }
         },
@@ -677,7 +1176,8 @@
                 ],
                 "description": "Tool pack to make it simpler to support the registration of laravel services",
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30546559/issues"
+                    "source": "https://gitlab.com/pam-framework/core-package-toolkit/-/tree/1.0.0",
+                    "issues": "https://gitlab.com/pam-framework/core-package-toolkit/-/issues"
                 }
             },
             "dev-master": {
@@ -712,7 +1212,8 @@
                 ],
                 "description": "Tool pack to make it simpler to support the registration of laravel services",
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30546559/issues"
+                    "source": "https://gitlab.com/pam-framework/core-package-toolkit/-/tree/1.0.0",
+                    "issues": "https://gitlab.com/pam-framework/core-package-toolkit/-/issues"
                 }
             }
         }

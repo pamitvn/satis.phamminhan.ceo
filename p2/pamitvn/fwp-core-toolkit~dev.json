@@ -33,7 +33,8 @@
                 ],
                 "description": "Tool pack to make it simpler to support the registration of laravel services",
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30546559/issues"
+                    "source": "https://gitlab.com/pam-framework/core-package-toolkit/-/tree/1.0.0",
+                    "issues": "https://gitlab.com/pam-framework/core-package-toolkit/-/issues"
                 }
             }
         ]

@@ -3,6 +3,119 @@
         "laravel/nova": [
             {
                 "name": "laravel/nova",
+                "version": "v4.x-dev",
+                "version_normalized": "4.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@gitlab.com:pam-framework/nova.git",
+                    "reference": "2d8f86465ab6cd80cb2e1100c14cda6ef586ed24"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/pam-framework%2Fnova/repository/archive.zip?sha=2d8f86465ab6cd80cb2e1100c14cda6ef586ed24",
+                    "reference": "2d8f86465ab6cd80cb2e1100c14cda6ef586ed24",
+                    "shasum": ""
+                },
+                "require": {
+                    "brick/money": "^0.5.0|^0.6.0|^0.7.0",
+                    "doctrine/dbal": "^2.13.3|^3.1.2",
+                    "ext-json": "*",
+                    "illuminate/support": "^8.83.4|^9.3.1",
+                    "inertiajs/inertia-laravel": "^0.4.5|^0.5.2|^0.6.0",
+                    "laravel/ui": "^3.3|^4.0",
+                    "nesbot/carbon": "^2.53.1",
+                    "php": "^7.3|^8.0",
+                    "rap2hpoutre/fast-excel": "^3.2|^4.1",
+                    "spatie/once": "^1.1|^2.0|^3.0",
+                    "symfony/console": "^5.4|^6.0",
+                    "symfony/finder": "^5.4|^6.0",
+                    "symfony/polyfill-intl-icu": "^1.22.1",
+                    "symfony/process": "^5.4|^6.0"
+                },
+                "require-dev": {
+                    "laravel/nova-dusk-suite": "8.4.x-dev|9.4.x-dev",
+                    "laravel/pint": "^1.0",
+                    "laravel/scout": "^9.4",
+                    "mockery/mockery": "^1.4.4",
+                    "nunomaduro/larastan": "^1.0.1|^2.0",
+                    "orchestra/testbench-dusk": "^6.24|^7.0",
+                    "phpunit/phpunit": "^9.5.10",
+                    "predis/predis": "^1.1.9|^2.0"
+                },
+                "suggest": {
+                    "ext-intl": "Required to format Currency field"
+                },
+                "time": "2022-12-10T23:47:29+07:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.x-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Laravel\\Nova\\NovaCoreServiceProvider"
+                        ],
+                        "aliases": {
+                            "Nova": "Laravel\\Nova\\Nova"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Laravel\\Nova\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Laravel\\Nova\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "dusk:prepare": [
+                        "./vendor/bin/dusk-updater detect --auto-update",
+                        "@php -r \"file_exists('phpunit.dusk.xml') || copy('phpunit.dusk.xml.dist', 'phpunit.dusk.xml'); \"",
+                        "@php -r \"if (file_exists('.env.dusk')) { copy('.env.dusk', 'vendor/laravel/nova-dusk-suite/.env'); } else { copy('.env.dusk.example', 'vendor/laravel/nova-dusk-suite/.env'); }\"",
+                        "./vendor/bin/testbench-dusk package:discover"
+                    ],
+                    "dusk:dev-assets": [
+                        "npm ci",
+                        "TAILWIND_MODE=build npm run dev",
+                        "./vendor/bin/testbench-dusk nova:publish --force"
+                    ],
+                    "dusk:assets": [
+                        "npm ci",
+                        "TAILWIND_MODE=build npm run prod",
+                        "./vendor/bin/testbench-dusk nova:publish --force"
+                    ],
+                    "dusk:test": [
+                        "./vendor/bin/testbench-dusk package:dusk-purge",
+                        "./vendor/bin/phpunit -c phpunit.dusk.xml"
+                    ],
+                    "dusk:filter": [
+                        "./vendor/bin/testbench-dusk package:dusk-purge && ./vendor/bin/phpunit -c phpunit.dusk.xml --filter"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "A wonderful administration interface for Laravel.",
+                "keywords": [
+                    "admin",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://gitlab.com/pam-framework/nova/-/tree/v4.19.3",
+                    "issues": "https://gitlab.com/pam-framework/nova/-/issues"
+                }
+            },
+            {
+                "name": "laravel/nova",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
@@ -38,7 +151,7 @@
                     "phpunit/phpunit": "^8.4",
                     "predis/predis": "^1.1"
                 },
-                "time": "2021-10-20T11:25:03+00:00",
+                "time": "2021-10-20T18:25:03+07:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -95,7 +208,8 @@
                     "laravel"
                 ],
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30580855/issues"
+                    "source": "https://gitlab.com/pam-framework/nova/-/tree/master",
+                    "issues": "https://gitlab.com/pam-framework/nova/-/issues"
                 }
             }
         ]

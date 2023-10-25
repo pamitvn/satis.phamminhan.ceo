@@ -48,7 +48,8 @@
                 ],
                 "description": "Store strongly typed application settings",
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30547467/issues"
+                    "source": "https://gitlab.com/pam-framework/core-setting/-/tree/v1.0.1",
+                    "issues": "https://gitlab.com/pam-framework/core-setting/-/issues"
                 }
             },
             {
@@ -98,7 +99,8 @@
                 ],
                 "description": "Store strongly typed application settings",
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30547467/issues"
+                    "source": "https://gitlab.com/pam-framework/core-setting/-/tree/v1.0.1",
+                    "issues": "https://gitlab.com/pam-framework/core-setting/-/issues"
                 }
             }
         ]

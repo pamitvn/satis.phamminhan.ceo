@@ -33,7 +33,8 @@
                     }
                 ],
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30523543/issues"
+                    "source": "https://gitlab.com/pam-framework/core-support/-/tree/1.0.0",
+                    "issues": "https://gitlab.com/pam-framework/core-support/-/issues"
                 }
             }
         ]

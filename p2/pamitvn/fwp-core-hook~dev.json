@@ -36,7 +36,8 @@
                 ],
                 "description": "The WordPress filter/action system in Laravel",
                 "support": {
-                    "issues": "https://gitlab.com/api/v4/projects/30576986/issues"
+                    "source": "https://gitlab.com/pam-framework/core-hook/-/tree/v1.0.0",
+                    "issues": "https://gitlab.com/pam-framework/core-hook/-/issues"
                 }
             }
         ]
